@@ -1,3 +1,7 @@
+启动：
+1. pip install -r requirements.txt
+2. uvicorn app.main:app --reload
+
 # FAQ 客服后端服务
 
 本项目实现了一个基于 FAQ 的客服后端服务，参考并对齐阿里云客服工作台中 FAQ 类目管理与 FAQ 管理的设计规范，聚焦于 **FAQ 知识管理与问答匹配能力**，用于支撑自动化客服或半自动客服场景。
