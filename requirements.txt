@@ -1,0 +1,30 @@
+# Slim requirements for ai-engineering-project
+# Keep only likely direct dependencies; adjust per your install docs.
+
+openai==2.16.0
+python-dotenv==1.2.1
+pydantic==2.12.5
+requests==2.32.5
+httpx==0.28.1
+
+fastapi==0.123.8
+uvicorn==0.38.0
+SQLAlchemy[asyncio]==2.0.46
+aiomysql==0.3.2
+aiosqlite==0.22.1
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+torch==2.9.1
+transformers==4.56.2
+datasets==4.5.0
+accelerate==1.12.0
+peft==0.15.0
+tiktoken==0.12.0
+
+PyYAML==6.0.3
+tqdm==4.67.1
+rich==14.2.0
+typer==0.20.0
