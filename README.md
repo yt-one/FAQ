@@ -1,6 +1,7 @@
 启动：
 1. pip install -r requirements.txt
-2. uvicorn app.main:app --reload
+2. cd ./app
+3. uvicorn app.main:app --reload
 
 # FAQ 客服后端服务
 
